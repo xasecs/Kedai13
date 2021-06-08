@@ -36,13 +36,13 @@ header {
   top: 0;
   z-index: 10;
   background-image: url('header2.jpg');
+  background-size: cover;
 }
 
-.logo h1 {
-  font-size: 40px;
-  font-style: italic;
-  font-family: 'Trebuchet MS';
-  color: violet;
+.logo {
+  width: 125px;
+  height: 34px;
+  margin-top: 10px;
 }
 
 .header-left {
@@ -99,36 +99,38 @@ header {
 
 .top-wrapper h1 {
   opacity: 1;
-  font-size: 45px;
+  font-size: 65px;
   letter-spacing: 5px;
   margin-bottom: 10px;
-  font-family: 'Avenir Next';
+  font-family: 'League Spartan';
   text-align: center;
 }
 
 .top-wrapper h2 {
   opacity: 1;
-  font-size: 25px;
+  font-size: 35px;
   letter-spacing: 5px;
-  margin-bottom: 10px;
-  font-family: 'Lucida Sans Unicode';
+  margin-bottom: 8px;
+  font-family: 'League Spartan';
   text-align: center;
-  color: cyan;
+  color: #f6b21b;
 }
 .top-wrapper span {
   opacity: 1;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 5px;
-  margin-bottom: 10px;
-  font-family: 'Lucida Sans Unicode';
-  color: lightgrey;
+  margin-bottom: 8px;
+  font-family: 'League Spartan';
+  color: #fff;
 }
 
 .top-wrapper p {
-  opacity: 0.7;
+  opacity: 0.9;
   margin-bottom: 3px;
   font-size: 20px;
-  color: honeydew;
+  font-family: 'Libre Baskerville';
+  font-style: italic;
+  color: #fff;
 }
 
 .menu-wrapper {
@@ -213,16 +215,18 @@ textarea {
 
 .review h4 {
   font-size: 28px;
+  font-family: 'League Spartan';
   padding-top: 60px;
   padding-bottom: 15px;
   margin-bottom: 5px;
-  color: mediumturquoise;
+  color: #f6b21b;
   border-bottom: 2px solid #dee7ec;
 }
 
 .review p {
   padding-bottom: 10px;
   padding-top: 30px;
+  font-size: 20px;
   color: whitesmoke;
 }
 
@@ -256,23 +260,29 @@ textarea {
 
 footer h5 {
   color: #b3aeb5;
-  font-size: 50px;
+  font-size: 25px;
   text-align: center;
-  line-height: 100px;
+  line-height: 30px;
   padding-bottom: 10px;
-  font-family: cursive;
+  font-family: 'League Spartan';
 }
 
 footer p {
   color: linen;
-  font-size: 17px;
+  font-size: 15px;
   padding-top: 10px;
   text-align: center;
-  font-family: monospace;
+  font-family: 'Libre Baskerville';
   font-weight: normal;
+}
+
+footer img {
+  width: 125px;
+  height: 34px;
+  margin-top: 20px;
 }
 
 footer {
   padding-top: 10px;
-  background-image: url('headerflip2.jpg');
+  background-color: #3d3d3d;
 }
