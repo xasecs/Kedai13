@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+      font-family:"Lucinda Grande";
+  }
+  a {
+    text-decoration: none;
+  }
+  .clear {
+    clear: left;
+  }
+
+  header {
+    height: 50px;
+    width: 100%;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    background-image: url("header2.jpg");
+  }
+  
+  .logo h1 {
+      font-size: 40px;
+      font-style: italic;
+      font-family:'Trebuchet MS';
+      color:violet;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: 25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    font-size:15px;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 50px;
+  }
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .top-wrapper {
+    padding-top: 300px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 200px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    animation: animasi 20s ease infinite;
+  }
+
+  @keyframes animasi {
+    0%, 100% {
+      background-image: url("headerflip.jpg");
+    }
+    25% {
+      background-image: url("e67daf68a6e8f6d4a9283cb7d64b098c.jpg");
+    }
+    50% {
+      background-image: url("19e99d1a4f11fabb6ff97ffab9b05764.jpg");
+    }
+  }
+
+  
+  .top-wrapper h1 {
+    opacity: 1;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    font-family:"Avenir Next";
+    text-align:center;
+  }
+  
+  .top-wrapper h2 {
+    opacity: 1;
+    font-size: 25px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    font-family:'Lucida Sans Unicode';
+    text-align:center;
+    color: cyan;
+  }
+  .top-wrapper span {
+    opacity: 1;
+    font-size: 15px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    font-family:'Lucida Sans Unicode';
+    color:lightgrey;
+  }
+
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+    font-size: 20px ;
+    color:honeydew;
+  }
+
+  .menu-wrapper {
+      height : 1100px;
+      padding-bottom: 80px;
+      padding-right: 100px;
+      background-image: url("haeaderflip1.jpg");
+  }
+
+  .heading {
+      padding-top: 60px;
+      padding-bottom: 30px;
+      color:papayawhip;
+  }
+
+  .heading h3 {
+      font-weight: normal;
+      text-align: center;
+      font-size: 50px;
+  }
+  
+  .menu {
+  
+    float: left;
+    width: 25%;
+  }
+  
+  .menu-icon {
+    position: relative;
+    margin-right: 25px ;
+
+  }
+  
+  .menu-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #b3aeb5;
+    text-align: center;
+
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+
+  .review {
+    padding-left: 80px;
+  }
+  
+  input, textarea {
+    width : 200px;
+    padding :20px 20px;
+    border :1px solid #dee7ec;
+  }
+  
+  .review h4 {
+    font-size :28px;
+    padding-top: 60px ;
+    padding-bottom :15px;
+    margin-bottom :5px;
+    color:mediumturquoise;
+    border-bottom :2px solid #dee7ec;
+  }
+  
+  .review p {
+    padding-bottom:10px;
+    padding-top:30px;
+    color:whitesmoke;
+  }
+  
+  .submit {
+    font-size :10px ;
+    background-color :#dee7ec;
+    color :#889eab;
+    width:25%;
+  }
+  
+  footer h5 {
+    color: #b3aeb5;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    padding-bottom: 10px;
+    font-family: cursive;
+  }
+
+  footer p {
+    color:linen;
+    font-size: 17px;
+    padding-top: 10px;
+    text-align: center;
+    font-family:monospace;
+    font-weight: normal;
+  }
+  
+  footer {
+    padding-top: 10px;
+    background-image: url(header.jpg);
+  }
+  
