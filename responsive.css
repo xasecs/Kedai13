@@ -19,8 +19,17 @@
       display: none;
     }
       
+    .menu {
+      width: 100%;
+    }
+
     .menu-icon {
       display: block;
+      margin-bottom: -20px;
+    }
+
+    .txt-contents {
+      padding-bottom: 20px;
     }
     
     .top-wrapper h2 {
