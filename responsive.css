@@ -6,7 +6,6 @@
   
     .top-wrapper h2 {
       font-size: 25px;
-      letter-spacing:-5px;
     }
   
     .top-wrapper span {
@@ -22,6 +21,10 @@
       
     .menu-icon {
       display: block;
+    }
+    
+    .top-wrapper h2 {
+      letter-spacing:-5px;
     }
   }
   
