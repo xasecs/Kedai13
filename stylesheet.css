@@ -69,7 +69,7 @@ header {
   height: 50px;
 }
 
-.menu-ikon {
+.menu-icon {
     color:whitesmoke;
     float:right;
     display: none;
@@ -168,7 +168,7 @@ header {
   margin-right: -100px;
 }
 
-.menu-icon {
+.menus {
   position: relative;
   margin-right: 25px;
   transition: transform 0.2s;
@@ -177,7 +177,7 @@ header {
   /* margin: 0 auto; */
 }
 
-.menu-icon:hover {
+.menus:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
