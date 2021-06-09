@@ -11,6 +11,33 @@
     .top-wrapper span {
       font-size:15px;
     }
+          
+    .menu {
+      width: 50%;
+      padding-bottom: 50px;
+    }
+
+     .menu-wrapper {
+      margin: auto;
+      height: 1400px;
+      width: 100%;
+      /* border: 3px solid green; */
+      padding: 10px;
+      /* text-align: center; */
+      text-align: -webkit-center;
+    }
+
+    .txt-title {
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+    }
+
+    .Best {
+      padding: 0 5%;
+    }
   }
   
   /* For Smartphones */
@@ -47,7 +74,7 @@
 
     .menu-wrapper {
       margin: auto;
-      height: 2000px;
+      height: 2300px;
       width: 100%;
       /* border: 3px solid green; */
       padding: 10px;
@@ -55,9 +82,9 @@
 
     
     .menus:hover {
-      -ms-transform: scale(1.03); /* IE 9 */
-      -webkit-transform: scale(1.03); /* Safari 3-8 */
-      transform: scale(1.03);
+      -ms-transform: scale(1.1); /* IE 9 */
+      -webkit-transform: scale(1.1); /* Safari 3-8 */
+      transform: scale(1.3);
     }
 
     footer {
