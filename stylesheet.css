@@ -29,18 +29,18 @@ a {
 }
 
 header {
-  height: 50px;
+  height: 85px;
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 10;
-  background-image: url('header2.jpg');
+  background-image: linear-gradient( black,  transparent);
   background-size: cover;
 }
 
 .logo {
   width: 125px;
-  height: 34px;
+  height: auto;
   margin-top: 5px;
 }
 
@@ -54,13 +54,14 @@ header {
 }
 
 .header-right a {
-  line-height: 65px;
+  line-height: 50px;
   padding: 0 10px;
   color: white;
   display: block;
   float: left;
   transition: all 0.5s;
   font-size: 15px;
+  font-weight: lighter;
 }
 
 .header-right a:hover {
@@ -69,11 +70,15 @@ header {
 }
 
 .menu-icon {
-    color:whitesmoke;
+    color:#f6b21b;
     float:right;
     display: none;
     font-size: 25px;
-    padding:21px 0;
+    padding: 10px 0;
+}
+
+.login {
+  color: #f6b21b;
 }
 
 .container {
@@ -105,13 +110,9 @@ header {
   }
 }
 
-.top-wrapper h1 {
-  opacity: 1;
-  font-size: 65px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
-  font-family: 'League Spartan';
-  text-align: center;
+.logo-top {
+  width: auto;
+  height: 50px;
 }
 
 .top-wrapper h2 {
