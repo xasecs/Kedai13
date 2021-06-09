@@ -6,7 +6,7 @@
   
     .top-wrapper h2 {
       font-size: 25px;
-      letter-spacing:5px;
+      letter-spacing:-5px;
     }
   
     .top-wrapper span {
