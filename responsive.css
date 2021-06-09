@@ -35,5 +35,24 @@
     .top-wrapper span {
       font-size:15px;
     }
+
+    .menu-wrapper {
+      margin: auto;
+      height: 2000px;
+      width: 100%;
+      /* border: 3px solid green; */
+      padding: 10px;
+    }
+
+    
+    .menus:hover {
+      -ms-transform: scale(1.03); /* IE 9 */
+      -webkit-transform: scale(1.03); /* Safari 3-8 */
+      transform: scale(1.03);
+    }
+
+    footer {
+      text-align: center;
+    }
   }
   
