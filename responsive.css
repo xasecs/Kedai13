@@ -25,6 +25,15 @@
     
     .top-wrapper h2 {
       letter-spacing:-1px;
+      font-size:25px;
+    }
+   
+    .top-wrapper h1 {
+      font-size: 55px;
+    }
+    
+    .top-wrapper span {
+      font-size:15px;
     }
   }
   
